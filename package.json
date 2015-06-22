@@ -1,0 +1,28 @@
+{
+  "name": "webpack_develop_less",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --port 3000 --inline",
+    "hot": "webpack-dev-server --hot --progress --colors --port 3000 --inline"
+  },
+  "dependencies": {
+    "URIjs": "^1.15.1",
+    "bower": "^1.4.1",
+    "css-loader": "^0.14.5",
+    "jquery": "2.1.4",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "style-loader": "^0.12.3",
+    "webpack": "1.9.11",
+    "webpack-dev-server": "1.9.0"
+  },
+  "keywords": [
+    "webpack",
+    "jquery",
+    "URIjs",
+    "less"
+  ],
+  "author": "Sheng",
+  "license": "MIT"
+}
